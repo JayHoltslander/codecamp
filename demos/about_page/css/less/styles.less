@@ -1,0 +1,69 @@
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: none;
+}
+
+.full {
+  background: url(../img/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#content_box {
+  padding:37px;
+  background-color: #fff
+}
+
+#content_box h1 {
+  font-weight: 100;
+  font-size: 5em;
+}
+#content_box h2 {
+  font-weight: 300;
+  font-size: 1.7em;
+  line-height: 1.3em;
+  color:#8a5941;
+}
+#content_box h3 {font-size:1.5em;}
+#content_box h4 {font-size:1.4em;}
+#content_box h5 {font-size:1.3em;}
+#content_box h6 {font-size:1.2em;}
+#content_box p {font-size:1.2em;}
+#content_box a {font-size:1.2em;font-weight:200;color: #db4254;text-decoration: none;}
+#content_box a:hover {text-decoration: underline;}
+#content_box small {margin-top:10px;font-size:80%; color:rgba(51, 51, 51, 0.250);float: right;}
+#content_box small a {font-size:100%; font-weight:400; color:rgba(51, 51, 51, 0.250);}
+/*
+ul {
+  list-style-image: url('img/bullet.gif');
+}
+*/
+
+#avatar {
+  border-radius: 50%;
+  border:8px solid #fff;
+  /* .img-responsive */
+  max-width: 50%;
+  height: 0;
+  /* .center-block */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: none;
+}
+
+.fa-ul {
+  margin-left: 0;
+  margin-top: 30px;
+}
+
+/* Jay's fancy Bootstrap column animations */
+div[class*='col-']{
+transition:width 1s ease-in-out;
+transition:margin-left 0.75s ease-in-out;
+}
+body {
+transition:margin-top 0.75s ease-in-out;
+}
